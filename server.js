@@ -27,10 +27,15 @@ mongoose
 // API Endpoints
 
 const pusher = new Pusher({
-  appId: "1691042",
-  key: "ba110c2a83de5a3b9f65",
-  secret: "c9663e9a6e447be77ffd",
-  cluster: "ap2",
+  // appId: "1691042",
+  // key: "ba110c2a83de5a3b9f65",
+  // secret: "c9663e9a6e447be77ffd",
+  // cluster: "ap2",
+  
+  appId : "1691042",
+  key : "ba110c2a83de5a3b9f65",
+  secret : "c9663e9a6e447be77ffd",
+  cluster : "ap2",
   useTLS: true
 });
 
